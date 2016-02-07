@@ -1,0 +1,9 @@
+---
+   - name: Install Python software properties
+     apt: pkg=python-software-properties state=installed update_cache=true
+
+   - name: Add PPA repository java
+     apt_repository: repo='ppa:webupd8team/java' update_cache=true
+
+   - name: Installing Oracle-Java-8
+     apt: pkg=oracle-java8-installer state=installed update_cache=true

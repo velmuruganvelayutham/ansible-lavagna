@@ -1,0 +1,5 @@
+[wordpress-server]
+webserver2
+
+[local]
+127.0.0.1

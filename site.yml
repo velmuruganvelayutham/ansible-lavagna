@@ -1,0 +1,12 @@
+---
+- name: Install Lavagna, MySQL, Tomcat.
+  hosts: local
+  # remote_user: root
+  sudo: yes
+
+  roles:
+    - common
+    - java
+    - tomcat
+
+...

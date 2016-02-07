@@ -1,0 +1,3 @@
+---
+   - name: Downloading Latest lavagna war file from maven repo..
+     maven_artifact: group_id=io.lavagna artifact_id=lavagna extension=war dest=/etc/temp/lavagna.war
